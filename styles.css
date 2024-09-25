@@ -32,6 +32,7 @@ body {
     margin: 0 auto;
     justify-content: center;
     background-color: #ecf2f7;
+    position: relative;
 }
 
 .container {
@@ -147,6 +148,13 @@ body {
 .card-five {
     grid-area: card-five;
     background-color: var(--very-dark-blackish-blue);
+}
+
+.attribution {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
 }
 
 @media screen and (max-width: 992px) {
