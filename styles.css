@@ -157,6 +157,16 @@ body {
     transform: translate(-50%);
 }
 
+.attribution a {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+    color: purple;
+}
+
 @media screen and (max-width: 992px) {
     .container {
         grid-template-columns: repeat(3, 1fr);
