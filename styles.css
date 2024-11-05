@@ -29,6 +29,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    flex-direction: column;
     margin: 0 auto;
     justify-content: center;
     background-color: #ecf2f7;
@@ -151,10 +152,8 @@ body {
 }
 
 .attribution {
-    position: absolute;
-    left: 50%;
-    bottom: 20px;
-    transform: translate(-50%);
+    text-align: center;
+    padding: 10px;
 }
 
 .attribution a {
